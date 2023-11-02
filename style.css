@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Onest&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Onest;
+  color: #2C3640;
+}
+
+.container {
+  max-width: 1160px;
+}
+
+.section_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.section_card {
+  background-color: #F8F9FB;
+  width: 480px;
+  margin-top: 40px;
+  margin-left: 30px;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.section_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section_name {
+  font-size: 16px;
+}
+
+.section_konflict {
+  color: #959B9F;
+  font-size: 16px;
+}
+
+.section_score {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.section_one {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.section_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section_text {
+  margin-left: 20px;
+  margin-top: 5px;
+}
